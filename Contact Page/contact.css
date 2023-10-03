@@ -1,0 +1,351 @@
+
+/* Default links  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
+/* Starting Header section  */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border-bottom: 2px solid gainsboro;
+  }
+  
+  /* top header  */
+  .top-header {
+    background: #0060b1;
+    padding: 18px 0;
+  }
+  
+  .top-header-links ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .top-header-links ul li {
+    list-style-type: none;
+  }
+  
+  .top-header-links ul li .white-space {
+    list-style-type: none;
+    white-space: nowrap;
+  }
+  
+  .top-header-links ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 0.60px;
+  }
+  
+  .top-header-links ul li .visible-links {
+    color: white;
+  }
+  
+  .top-header-links ul li .transparency-links {
+    color: var(--transparency-color--);
+  }
+  
+  .top-header-links ul li i {
+    color: var(--transparency-color--);
+  }
+  
+  /* Main Header  */
+  .main-header {
+    background-color: darkseagreen;
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    background-color: white;
+    z-index: 999;
+  }
+  
+  .main-header .image img {
+    width: 355px;
+  }
+  
+  .main-header .image {
+    display: block;
+    padding-left: 20vh;
+  }
+  
+  .main-header nav ul {
+    display: flex;
+    gap: 7vh;
+    width: 100%;
+    justify-content: end;
+    padding-right: 18vh;
+  }
+  
+  .main-header nav ul li {
+    list-style-type: none;
+  }
+  
+  .main-header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #545454;
+    font-weight: 600;
+    font-family: system-ui;
+    font-size: 15px;
+    letter-spacing: .50px;
+    transition: all .3s;
+  }
+  
+  .main-header nav ul li .active-link {
+    color: #0060b1;
+  }
+  
+  .main-header nav ul li a:hover {
+    color: #0060b1;
+    cursor: pointer;
+  }
+  
+  .login-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    position: fixed;
+    top: 38vh;
+    right: 0vh;
+    z-index: 999;
+  
+  }
+  
+  .login-icons img {
+    width: 50px;
+    height: 53px;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all .2s linear;
+  }
+  
+  .login-icons .student {
+    background-color: green;
+  }
+  
+  .login-icons .teacher {
+    background-color: red;
+  }
+  
+  .login-icons .admin {
+    background-color: orange;
+  }
+  
+  .login-icons img:hover {
+    background-color: black;
+  }
+
+
+  /* Hamburger Menu  */
+  .hamburger {
+    position: absolute;
+    right: 10vh;
+    top: 5vh;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .hamburger i {
+    font-size: 28px;
+  }
+  
+  /* Ending Header section  */
+
+
+
+
+
+
+
+
+  /* Starting contact section  */
+
+  #Contact {
+    margin-top: 8vh;
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    height: 630px;
+  }
+
+  .contact-form{
+width: 610px;
+/* background-color: rgb(217, 217, 221); */
+height: 100vh;
+  }
+
+ 
+
+  /* contact Form  */
+  .form-head {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000000dd;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  margin-bottom: 7vh;
+   }
+
+   .form-para {
+    line-height: 1.5;
+    width: 596px;
+    font-size: 16.70px;
+   color: #545454;
+    }
+
+    form {
+      margin-top: 5vh;
+    }
+
+    form .form-items {
+      margin-bottom: 3vh;
+    }
+
+    form label {
+      font-size: 15px;
+      color: #545454;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-transform: capitalize;
+    }
+
+    form label .star {
+      color: red;
+    }
+
+    input, textarea {
+      font-size: 16px;
+      padding: 10px 20px;
+      width: 400px;
+      border: 1px solid rgb(186, 186, 186);
+      margin-top: 1.20vh;
+      outline-color: rgb(15, 236, 15);
+    }
+
+    textarea {
+      height: 160px;
+    }
+
+    .form-btn a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+     font-size: 15px;
+     background-color: rgb(17, 197, 17);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 12px 20px;
+     font-weight: bolder;
+     letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    width: 130px;
+    transition: .3s;
+    }
+
+    .form-btn a:hover {
+      background-color: rgb(21, 156, 21);
+    }
+
+
+    /* Contact details  */
+
+    .contact-details{
+      width: 315px;
+      height: 100vh;
+    }
+
+
+.contact-location {
+  width: 304px;
+   border: 1px solid gainsboro;
+  border-top: none;
+  margin: auto;
+}
+.green-border {
+  margin-bottom: 2vh;
+  height: 3px;
+  width: 100%;
+  background-color: rgb(11, 208, 11);
+}
+
+.main-items {
+  margin-left: 10px;
+}
+
+.location-para{
+  margin-bottom: 3vh;
+  width: 300px; 
+  line-height: 1.3;
+    font-size: 16px;
+   color: #5a5858;
+   font-weight: 500;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.location-para i {
+  color: rgb(47, 47, 223);
+  font-size: 13.20px;
+  margin-right: 2vh;
+}
+
+
+.facebook {
+  margin-top: 5vh;
+}
+
+.image-layer {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.2) ), url(https://scontent.xx.fbcdn.net/v/t39.30808-6/300384346_205252311841962_3063377080954133649_n.jpg?stp=dst-jpg_p130x130&_nc_cat=109&ccb=1-7&_nc_sid=dd9801&_nc_ohc=YHwA2TVj_vEAX-ijTwn&_nc_ht=scontent.xx&edm=AOWI9OIEAAAA&oh=00_AfAIjkU8pCXjMkg7KPHFFLkEmIHOED6AoDEl4VACidwEMw&oe=64ED3161);
+  background-position: center;
+  background-size: cover;
+  height: 125px;
+  position: relative;
+  cursor: pointer;
+}
+
+.school-name {
+  position: absolute;
+  top: 13px;
+  left: 70px;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 0 0 10px #3e3c3c;
+}
+
+.school-image {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+.school-followers {
+  position: absolute;
+  top: 38px;
+  left: 68px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+  /* Ending contact section  */
+
+
+
+ 
+
+
+  /* Starting Footer section  */
+
+  /* Ending Footer section  */

@@ -1,0 +1,36 @@
+.teach-li {
+    list-style-type: none;
+}
+
+.teach-li .num {
+    color: red;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.teacher-login {
+    background-color: rgb(110, 5, 5);
+    width: 90%;
+    padding: 11px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.teacher-login:hover {
+    background-color: rgba(110, 5, 5, 0.774);
+}
+
+.login-btn{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.teacher-login{
+    margin-top: 5vh;
+}

@@ -1,0 +1,32 @@
+/* Starting Footer section  */
+@media(max-width: 938px) {
+    footer #main-footer {
+      flex-direction: column;
+    }
+    
+    footer #main-footer .Contact {
+    padding-left: 0vh;
+    margin: auto;
+    border: none;
+    }
+    
+    footer #main-footer .important-links{
+    margin: 15vh auto;
+     }
+    
+    footer #main-footer .school-info {
+      padding-right: 0vh;
+     margin: auto;
+     border: none;
+    }
+    
+    }
+    
+    @media(max-width: 901px) {
+      #sub-footer{
+    text-align: center;
+    flex-direction: column;
+    gap: 4vh;
+      }
+    }
+    /* Starting Footer section  */
