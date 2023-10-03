@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #be0403;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 50px;
+}
+
+.main-header .img {
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}
+
+.img img {
+    width: 95px;
+}
+
+.img h1 {
+    font-size: 33px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.links {
+    display: flex;
+    gap: 5vh;
+}
+
+.links i {
+    color: rgba(124, 6, 6, 0.822);
+    background-color: rgb(230, 170, 8);
+    padding: 8px 10px;
+    border-radius: 50%;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.links i:hover {
+    background-color: rgba(230, 171, 8, 0.733);
+}
+
+.login-header {
+    background-color: #df1212;
+    padding: 20px 50px;
+}
+
+.login-header .login {
+    color: white;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.content {
+    margin-top: 30vh;
+    padding-left: 20vh;
+}
+
+.content form {
+    margin-top: 3vh;
+}
+
+.content h1 {
+    font-weight: 700;
+    color: rgb(58, 55, 55);
+    text-transform: capitalize;
+    font-size: 37px;
+}
+
+.content label {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(29, 28, 28);
+}
+
+.content form input {
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 7px;
+ }
+
+ form li {
+    list-style-type: none;
+    margin-top: 2vh;
+ }
+
+ form li .forget{
+    text-decoration: none;
+   text-transform: capitalize;
+  font-weight: 600;
+  color: rgba(0, 0, 255, 0.87);
+   font-size: 17px;
+ }
+
+ 
+  
+
+ .content form ::placeholder{
+    font-size: 17px;
+    font-weight: 600;
+ }
+
+ footer {
+    background-color:#be0403;
+    padding: 30px 30px;
+    margin-top: 25vh;
+ }
+
+ footer p {
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+ }

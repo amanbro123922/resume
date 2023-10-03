@@ -1,0 +1,150 @@
+
+/* Default links  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* Starting Header section  */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  /* top header  */
+  .top-header {
+    background: #0060b1;
+    padding: 18px 0;
+  }
+  
+  .top-header-links ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .top-header-links ul li {
+    list-style-type: none;
+  }
+  
+  .top-header-links ul li .white-space {
+    list-style-type: none;
+    white-space: nowrap;
+  }
+  
+  .top-header-links ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 0.60px;
+  }
+  
+  .top-header-links ul li .visible-links {
+    color: white;
+  }
+  
+  .top-header-links ul li .transparency-links {
+    color: var(--transparency-color--);
+  }
+  
+  .top-header-links ul li i {
+    color: var(--transparency-color--);
+  }
+  
+  /* Main Header  */
+  .main-header {
+    background-color: darkseagreen;
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    background-color: white;
+    z-index: 999;
+  }
+  
+  .main-header .image img {
+    width: 355px;
+  }
+  
+  .main-header .image {
+    display: block;
+    padding-left: 20vh;
+  }
+  
+  .main-header nav ul {
+    display: flex;
+    gap: 7vh;
+    width: 100%;
+    justify-content: end;
+    padding-right: 18vh;
+  }
+  
+  .main-header nav ul li {
+    list-style-type: none;
+  }
+  
+  .main-header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #545454;
+    font-weight: 600;
+    font-family: system-ui;
+    font-size: 15px;
+    letter-spacing: .50px;
+    transition: all .3s;
+  }
+  
+  .main-header nav ul li .active-link {
+    color: #0060b1;
+  }
+  
+  .main-header nav ul li a:hover {
+    color: #0060b1;
+    cursor: pointer;
+  }
+  
+  .login-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    position: fixed;
+    top: 38vh;
+    right: 0vh;
+    z-index: 999;
+  
+  }
+  
+  .login-icons img {
+    width: 50px;
+    height: 53px;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all .2s linear;
+  }
+  
+  .login-icons .student {
+    background-color: green;
+  }
+  
+  .login-icons .teacher {
+    background-color: red;
+  }
+  
+  .login-icons .admin {
+    background-color: orange;
+  }
+  
+  .login-icons img:hover {
+    background-color: black;
+  }
+
+
+  
+  
+  /* Ending Header section  */

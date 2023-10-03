@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST. JOSEPH PUBLIC SCHOOL || NABINAGAR AMBA</title>
+    <!-- Css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive Css link  -->
+    <link rel="stylesheet" href="Responsive.css">
+    <!-- Font awesome Cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--  ======= ====== Starting Header Section ====== ====== -->
+     <!-- Loader  -->
+     <div id="loader">
+        <div class="loader"></div>
+     </div>
+
+
+    <header>
+        <div class="top-header">
+            <div class="top-header-links">
+                <ul>
+                    <li><a href="#" class="visible-links  white-space"> <i class="fa-solid fa-phone"></i> +91 7050656658
+                        </a>
+                    </li>
+                    <li><a href="#" class="visible-links imp-link"> <span class="white-space"> <i
+                                    class="fa fa-envelope"></i> sjps. </span> amba1@gmail.com
+                            <img src="school-images/Gift image.gif" style="width: 23px;"> Result Term-II 2022 </a></li>
+                    <li><a href="#" class="transparency-links">Mandatory Public Disclosure </a></li>
+                    <li><a href="#" class="transparency-links white-space"> <i class="fa fa-user"></i> Login <i
+                                class="fa fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="image">
+                <img src="school-images/school logo.png" alt="">
+            </div>
+            <nav>
+                <ul id="side-bar-body">
+                    <li><a href="#" class="active-link">Home <i class="fa fa-caret-down"></i></a></li>
+                    <li class="about"><a href="#">About <i class="fa fa-caret-down"></i></a>
+                        <ul class="drop-down" id="first">
+                            <li><a href="#">About school</a></li>
+                            <li><a href="#">Mandatory Public Disclosure</a></li>
+                            <li><a href="#">Vision And Mission</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Director's Message</a></li>
+                            <li><a href="#">Principal's Message</a></li>
+                        </ul> 
+                    </li>
+
+
+                    <li class="about"><a href="#">Admission <i class="fa fa-caret-down"></i></a>
+                        <ul class="drop-down" id="second">
+                            <li><a href="#">Admission Procedure</a></li>
+                            <li><a href="#">Rules & Regulations</a></li>
+                            <li><a href="#">Fee Structures</a></li>
+                            <li><a href="#">Admission Notice</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="about"><a href="#">Academics<i class="fa fa-caret-down"></i></a>
+                        <ul class="drop-down" id="third">
+                            <li><a href="#">Holiday Calendar</a></li>
+                            <li><a href="#">Academic Calendar</a></li>
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="#">Dowload</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Activities</a></li>
+                            <li><a href="#">Teacher's List</a></li>
+                            <li><a href="#">News And Events</a></li>
+                            <li><a href="#">Current Notices</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="about"><a href="#">Facilities <i class="fa fa-caret-down"></i></a>
+                        <ul class="drop-down" id="fourth">
+                            <li><a href="#">Library</a></li>
+                            <li><a href="#">Computer/Digital Lab</a></li>
+                            <li><a href="#">Science Lab</a></li>
+                            <li><a href="#">Dance Class</a></li>
+                            <li><a href="#">Smart Class</a></li>
+                            <li><a href="#">About school</a></li>
+                            <li><a href="#">About school</a></li>
+                            <li><a href="#">Transport</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="/Contact Page/contact.html" target="_blank">Contact us <i class="fa fa-caret-down"></i></a></li>
+                </ul>
+
+                <div class="hamburger" onclick="openSidebar()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+
+        <div class="login-icons">
+            <a href="Student-login-page/login.html" target="_blank"> <img src="school-images/student-login.png"
+                    class="student"> </a>
+            <a href="Teachers-login-page/teaches.html" target="_blank"> <img src="school-images/teacher-login.png"
+                    class="teacher "> </a>
+            <a href="#"> <img src="school-images/admin-login.png" class="admin" onclick="openAddmissionPage()"> </a>
+        </div>
+    </header>
+    <!--  ======= ====== Ending Header Section ====== ====== -->
+
+ 
+
+ 
+
+
+
+
+
+    <!--  ======= ====== Starting Images Section ====== ====== -->
+    <section id="images">
+        <div class="background-image">
+            <img src="school-images/school chnaging image.jpg" alt="">
+            <div class="overlay">
+                <h3>WELCOME TO ST. JOSEPH PUBLIC <br> SCHOOL</h3>
+                <p>The School imparts education with a mission to create intelligent, enterprising and dynamic persons
+                    with immense vitality and passion to explore and envolve.</p>
+                <button class="primary-btn" onclick="aman()">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!--  ======= ====== Ending Images Section ====== ====== -->
+
+
+
+
+    <!--  ====== ===== Starting Facilities section ====== ===== -->
+    <section id="facilities">
+        <h1 class="faci-heading">OUR EXCELLENT SCHOOL FACILITIES</h1>
+        <div class="faci-container">
+
+            <div class="items first">
+                <div class="items-content">
+                    <p class="main-para-faci">Our library has a large range of engaging fiction, & picture story books.
+                        All
+                        classes have a timetabled weekly library lesson in the library taken by the class teacher. </p>
+                    <div class="items-images">
+                        <img src="school-images/facilitie image one.jpg" alt="">
+                    </div>
+                </div>
+                <p class="btn-para-faci">Library <i class="fa fa-caret-right"></i></p>
+            </div>
+
+            <div class="items second">
+                <div class="items-content">
+                    <p class="main-para-faci">Students receive computer instruction weekly in the networked computer
+                        lab. It is computerized media center & computers in each of the classrooms. </p>
+                    <div class="items-images">
+                        <img src="school-images/facilities image two.jpg" alt="">
+                    </div>
+                </div>
+                <p class="btn-para-faci">computer lab <i class="fa fa-caret-right"></i></p>
+            </div>
+
+            <div class="items third">
+                <div class="items-content">
+                    <p class="main-para-faci">The Science Lab provides students with opportunities to design
+                        investigations, engage in scientific reasoning, manipulate equipment, record data, analyze
+                        results. </p>
+                    <div class="items-images">
+                        <img src="school-images/facilities image three.jpg" alt="">
+                    </div>
+                </div>
+                <p class="btn-para-faci">Science lab <i class="fa fa-caret-right"></i></p>
+            </div>
+
+            <div class="items fourth">
+                <div class="items-content">
+                    <p class="main-para-faci">The Dance room is used for Dance classes by students in Grades K-8 with a
+                        band program for students in grades 7 and 8. </p>
+                    <div class="items-images">
+                        <img src="school-images/facilities image four.jpg " alt="">
+                    </div>
+                </div>
+                <p class="btn-para-faci">Dance room <i class="fa fa-caret-right"></i></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- ====== ====== Ending Facilities section  ====== ======-->
+
+
+
+
+
+    <!--  ======= ====== Starting About Section ======= ======   -->
+    <section id="About">
+
+        <div class="events-section">
+            <h1 class="event-heading">ABOUT ST. JOSEPH PUBLIC SCHOOL</h1>
+            <div class="top-event">
+                <div class="event-image">
+                    <img src="school-images/second-shool-image.jpg" alt="" class="school-image">
+                </div>
+                <div class="top-event-content">
+                    <p class="first-event-para">The and mananaged by Murli Jee Education Trust.</p>
+                    <p class="second-event-para">To fulfil the motto & goal, St. Joseph Public School was founded in JAN
+                        2011 by the eminent social worker, educationlist Mr. A. Kumar who has contributed profusely to
+                        the academic life of Aurangabad district.</p>
+                    <button>learn more</button>
+                </div>
+            </div>
+
+            <div class="event-bottom-border"></div>
+
+            <div class="new-events">
+                <h3>RECENT NEWS & EVENTS</h3>
+                <div class="new-events-items">
+                    <img src="school-images/event-one.jpeg" alt="">
+                    <div class="event-information">
+                        <p class="new-events-heading">Ambedar Jayanti -2023</p>
+                        <p class="event-info">on: &nbsp; <span class="date">PTM - 2023</span></p>
+                        <p class="event-text">ANNUAL EXAM RESULT CUM PTM - 2023</p>
+                    </div>
+                </div>
+                <div class="new-events-items">
+                    <img src="school-images/event-two.jpeg" alt="">
+                    <div class="event-information">
+                        <p class="new-events-heading">PTM - 2023</p>
+                        <p class="event-info">on: &nbsp; <span class="date"> Mar 28, 2023</span></p>
+                        <p class="event-text">ANNUAL EXAM RESULT CUM PTM - 2023</p>
+                    </div>
+                </div>
+                <div class="new-events-items">
+                    <img src="school-images/event-three.jpeg" alt="">
+                    <div class="event-information">
+                        <p class="new-events-heading">PTM - 2023</p>
+                        <p class="event-info">on: &nbsp; <span class="date">PTM - 2023</span></p>
+                        <p class="event-text">ANNUAL EXAM RESULT CUM PTM - 2023</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="notice-section">
+            <div class="notice-items">
+                <div class="green-color-top-layer"></div>
+                <div class="main-notice-content">
+                    <h1 class="notice-heading">Current Notices</h1>
+
+                    <div class="notice-boxes notice-one">
+                        <div class="date-box">
+                            <h1 class="date-head">18</h1>
+                            <p class="date-para">May</p>
+                        </div>
+                        <div class="content-box">
+                            <h3 class="content-head">Summer Vaccation <br> Notice - 2023</h3>
+                            <p class="content-para">Dear Parents /Students, This is to notify that the school announces
+                                Summer Vacation ......</p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="notice-boxes notice-one">
+                        <div class="date-box">
+                            <h1 class="date-head">21</h1>
+                            <p class="date-para">Apr</p>
+                        </div>
+                        <div class="content-box">
+                            <h3 class="content-head">Eid-ul-Fitr Notice <br> - 2023</h3>
+                            <p class="content-para">Dear Parents/Students, The school will remain closed on 22th April
+                                (Saturday) 2023 o......</p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="notice-boxes notice-one">
+                        <div class="date-box">
+                            <h1 class="date-head">13</h1>
+                            <p class="date-para">Apr</p>
+                        </div>
+                        <div class="content-box">
+                            <h3 class="content-head">Ambedakar Jayanti Notice - 2023</h3>
+                            <p class="content-para">13th April, 2023 It is hereby informed to all the Students, Teachers
+                                and Staff that ......</p>
+                        </div>
+                    </div>
+                    <div class="notice-btn">
+                        <button class="more-notice">View more notice</button>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!--  ======= ====== Starting About Section ======= ======   -->
+
+
+
+
+
+
+
+
+
+    <!--  ====== ====== ===== Starting App Section ====== ====== =====  -->
+    <section id="App">
+        <div class="playstore-image">
+            <img src="school-images/playstore.png" alt="">
+        </div>
+        <h1 class="app-head">THE ST. JOSEPH PUBLIC SCHOOL APP IS EASY TO DOWNLOAD AND USE.</h1>
+        <p class="app-para">Now, student, teacher, parents can get the school information they want and need via their
+            smart phone. From Class Work updates, Attendance, Online Fee Payment, Class Time Table and Notices and
+            organization updates, St. Joseph Public Schhol App deliver</p>
+        <p class="app-info">important information about school updates.</p>
+        <div class="app-btn">
+            <button>click here to dowload the app</button>
+        </div>
+    </section>
+    <!--  ====== ====== ===== Ending App Section ====== ====== =====  -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ============ ====== ===== Starting Achievement section  ============ ====== =====  -->
+    <section id="Achievement">
+        <div class="papper">
+            <h1 class="achi-head">Our Achievements</h1>
+            <div class="achi-container">
+                <div class="achi-boxes">
+                    <div class="achi-image"><img src="school-images/achi.jpeg" alt=""></div>
+                    <div class="achi-main-title">
+                        <h1 class="achi-tittle">Ambedar Jayanti -2023</h1>
+                        <h1 class="achi-sub-tittle">Ambedar Jayanti -2023</h1>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="achi-container">
+                <div class="achi-boxes">
+                    <div class="achi-image"><img src="school-images/achi-tw.jpeg" alt=""></div>
+                    <div class="achi-main-title">
+                        <h1 class="achi-tittle">PTM - 2023</h1>
+                        <h1 class="achi-sub-tittle">Annual Exam Result Cum PTM 2023</h1>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="achi-container">
+                <div class="achi-boxes">
+                    <div class="achi-image"><img src="school-images/achi-three.jpeg" alt=""></div>
+                    <div class="achi-main-title">
+                        <h1 class="achi-tittle">Ambedar Jayanti -2022</h1>
+                        <h1 class="achi-sub-tittle">Quiz Contest</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="activities">
+            <h1 class="achi-head">SOME MORE FACILITIES</h1>
+            <div class="active-container">
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Coaching facility with regular tutors
+                    for all subjects and for all classes.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Co-curricular activities.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Moral education with special emphasis
+                    on Indian culture and traditions.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Secular atmosphere.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Game and physical education..</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Stationery Counter/Health Care Centre
+                    and other facility are also available.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> A big playground.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Good Library and Science laboratory.
+                </p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Separate computer lab for boys and
+                    girls.</p>
+
+                <p class="acti-para"> <i class="fa-regular fa-circle-check"></i> Audio and video spoken classes with
+                    projector..</p>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- ============ ====== ===== Ending Achievement section  ============ ====== =====  -->
+
+
+
+
+
+
+
+    <!-- ==== === ============ Starting Gallery Section ==== === ============ -->
+    <section id="Gallery">
+        <h1 class="achi-head gall-head">Our Gallery</h1>
+        <div class="gall-container">
+            <div class="gallery-items">
+                <img src="school-images/gall-1.jpeg" alt="">
+            </div>
+
+            <div class="gallery-items">
+                <img src="school-images/gall-2.jpeg" alt="">
+            </div>
+
+            <div class="gallery-items">
+                <img src="school-images/gall-3.jpeg" alt="">
+            </div>
+
+            <div class="gallery-items">
+                <img src="school-images/gall-4.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ==== === ============ Ending Gallery Section ==== === ============ -->
+
+
+
+
+
+
+    <!-- ==== === ============ Starting Footer Section ==== === ============ -->
+    <footer>
+        <div id="main-footer">
+            <div class="school-info">
+                <div class="school-logo">
+                    <img src="school-images/school-logo.png" alt="">
+                </div>
+                <h3 class="school-name">ST. JOSEPH PUBLIC <br> SCHOOL</h3>
+                <p class="school-address">Sonbarsha, Amba, <br> Aurangabad-Bihar</p>
+                <h4 class="reg-no">REG. NO. : 2426/11-12</h4>
+                <h4 class="school-code">SCHOOL CODE : 10341005804</h4>
+            </div>
+
+
+            <div class="important-links">
+                <h2 class="imp-link">Important links</h2>
+                <ul class="imp-list">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">NOTICES</a></li>
+                    <li><a href="#">ADMISSION PROCEDURE</a></li>
+                    <li><a href="#">RULE AND REGULATIONS</a></li>
+                    <li><a href="#">ADMISSION NOTICE</a></li>
+                    <li><a href="#">CAREER</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="Contact">
+                <h2 class="imp-link">contact us <h2>
+                        <h4 class="location"><i class="fa-sharp fa-solid fa-location-dot imp-i"></i> Sonbarsha,
+                            Amba, Aurangabad
+                            Bihar-824111</h4>
+                        <h5 class="message"><i class="fa-solid fa-message imp-i"></i> sjps.amba1@gmail.com</h5>
+                        <h3 class="contact-no"><i class="fa-solid fa-phone second-i"></i> +91 7050656658</h3>
+            </div>
+
+
+        </div>
+
+
+        <div id="sub-footer">
+            <div class="designed-date">
+                <h5>&copy; 2018 Copyright St. Joseph Public School</h5>
+            </div>
+
+            <div class="designed-name">
+                <p>Design and Developed by WIPENEX IT PRIVATE LIMITED 
+            </div>
+        </div>
+    </footer>
+    <!-- ==== === ============ Ending Footer Section ==== === ============ -->
+ 
+ 
+
+    <!-- Javascript  -->
+ <script src="script.js"></script>
+    
+
+</body>
+
+</html>
